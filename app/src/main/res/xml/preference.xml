@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Save Datas"
+        android:theme="@style/PreferenceCategoryStyle">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="count_switch"
+            android:title="COUNT"
+            app:icon="@android:drawable/ic_menu_save" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="background_switch"
+            android:title="BACKGROUND"
+            app:icon="@android:drawable/ic_menu_save" />
+    </PreferenceCategory>
+</PreferenceScreen>
